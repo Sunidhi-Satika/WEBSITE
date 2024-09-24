@@ -23,5 +23,4 @@ function game(playerMove) {
 			return 'paper';
 		}
 	}
-		
 }
