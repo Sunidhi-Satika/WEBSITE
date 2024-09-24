@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+	<link rel="stylesheet" href="style1.css">
+	<script src="script1.js"></script>
+
+</head>
+
+<body>
+
+	<p>Cart Quantity</p>
+
+	<button onclick=
+	"console.log(`Cart Quantity = ${cartQuantity}`)">
+
+		Show quantity
+
+	</button>
+
+	<button 
+		onclick=
+		"cartQuantity += 1
+		console.log(`Cart Quantity = ${cartQuantity}`)">
+
+		Add to cart
+
+	</button>
+
+	<button onclick=
+	"cartQuantity += 2
+	console.log(`Cart Quantity = ${cartQuantity}`)">
+
+		+2
+
+	</button>
+
+	<button onclick=
+	"cartQuantity += 3
+	console.log(`Cart Quantity = ${cartQuantity}`)">
+
+		+3
+
+	</button>
+
+	<button onclick=
+	"cartQuantity = 0
+	console.log('cart was reset')
+	console.log(`Cart Quantity = ${cartQuantity}`)">
+
+		Reset cart
+
+	</button>
+
+	<br>
+	<br>
+	
+	<p>Rock Paper Scissor</p>
+	<button onclick="
+	game('rock');
+	">
+		rock
+	</button>
+
+	<button onclick="
+	game('paper');
+	">
+		paper
+	</button>
+
+	<button onclick="
+	game('scissor')
+	">
+		scissor
+	</button>
+
+	
+</body>
+</html>
